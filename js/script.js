@@ -200,7 +200,7 @@ $(document).ready(function(){
 	setTimeout( function(){
 		if($("#site-type").length) {
         $(".typewrite3 span").typed({
-            strings: ["instagram", "github ", "linkedin"],
+            strings: ["instagram", "github", "linkedin","email"],
             typeSpeed: 100,
             backDelay: 500,
             loop: false,
@@ -211,6 +211,7 @@ $(document).ready(function(){
     }
 	}, 3000);
 });
+
 }
 
 
