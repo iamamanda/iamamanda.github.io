@@ -195,6 +195,22 @@ $(document).ready(function(){
     }
 	}, 3000);
 });
+
+$(document).ready(function(){
+	setTimeout( function(){
+		if($("#site-type").length) {
+        $(".typewrite3 span").typed({
+            strings: ["instagram", "github ", "linkedin"],
+            typeSpeed: 100,
+            backDelay: 500,
+            loop: false,
+            contentType: 'html', // or text
+            // defaults to false for infinite loop
+            loopCount: false,
+        });
+    }
+	}, 3000);
+});
 }
 
 
